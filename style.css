@@ -1,0 +1,187 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body > div {
+    padding: 10px 200px;   
+    flex: 1 1 0%;
+}
+
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.header img {
+  width: 100px;
+  height: 100px;
+}
+
+.header ul {
+    color:#e5e7eb;
+    display: flex;
+    gap: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.header li {
+   width: 100px;
+}
+/* add hero style */
+
+.hero {
+    background-color: #1f2937;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero-content {
+    flex: 1 1 auto;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.hero p {
+    font-size:18px;
+    color: #e5e7eb;
+}
+
+.hero button {
+    background-color: #3882f6;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 30px;
+
+}
+
+.hero img {
+    flex: 1 1 auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+/* add content style */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content-title {
+    margin: auto;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+ 
+.content ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+}
+
+li {
+    flex: 1;
+}
+
+li img {
+    width: 200px;
+    height: 200px;
+    border: solid #3882f6;
+    border-radius: 10px;
+}
+li p {
+    font-size： 18px;
+    color: #1f2937;
+    
+}
+
+
+/* add quote style  */
+.quote-container {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 70px 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.person {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+/* add content style  */
+
+.call-to-action {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 50px 80px;
+    border: white solid;
+    border-radius: 10px;
+    margin: 60px 120px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.call-to-action button {
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    border-radius: 8px;
+    padding: 8px 40px;
+}
+
+
+/* add footer style  */
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
